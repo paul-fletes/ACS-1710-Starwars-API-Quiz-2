@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    pass
+    return render_template('form.html')
 
 
 @app.route('/results')
